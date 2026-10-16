@@ -8,45 +8,18 @@ Working OpenCore EFI for the **Dell Latitude 3490** running **macOS Tahoe**. Nea
 
 ## Hardware
 
-**Model**
-
-Dell Latitude 3490
-
-**CPU**
-
-Intel Core i7-8550U (Kaby Lake Refresh)
-
-**iGPU**
-
-Intel UHD Graphics 620 (`AAPL,ig-platform-id` = `0x5916001C`)
-
-**dGPU**
-
-None
-
-**Audio**
-
-Realtek ALC256/ALC3246 (AppleALC, `layout-id` 3, `alc-delay` 1200)
-
-**Wi-Fi/BT**
-
-Broadcom BCM4352 802.11ac Dual Band — using **IO80211FamilyLegacy** + **AirportBrcmFixup** (native macOS driver)
-
-**RAM**
-
-32 GB
-
-**Ethernet**
-
-Realtek RTL8111 Gigabit (RealtekRTL8111.kext + IntelMausi disabled)
-
-**Touchpad**
-
-Synaptics I2C (VoodooPS2Trackpad) — ❌ Not working
-
-**SMBIOS**
-
-MacBookPro15,2
+| Component | Details |
+|---|---|
+| Model | Dell Latitude 3490 |
+| CPU | Intel Core i7-8550U (Kaby Lake Refresh) |
+| iGPU | Intel UHD Graphics 620 (`AAPL,ig-platform-id` = `0x5916001C`) |
+| dGPU | None |
+| Audio | Realtek ALC256/ALC3246 (AppleALC, `layout-id` 3, `alc-delay` 1200) |
+| Wi-Fi/BT | Broadcom BCM4352 802.11ac Dual Band — using **IO80211FamilyLegacy** + **AirportBrcmFixup** (native macOS driver) |
+| RAM | 32 GB |
+| Ethernet | Realtek RTL8111 Gigabit (RealtekRTL8111.kext + IntelMausi disabled) |
+| Touchpad | Synaptics I2C (VoodooPS2Trackpad) — ❌ Not working |
+| SMBIOS | MacBookPro15,2 |
 
 ## What works / what doesn't
 
