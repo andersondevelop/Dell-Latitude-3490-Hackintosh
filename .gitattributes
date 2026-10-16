@@ -1,0 +1,11 @@
+# Git LFS configuration for Hackintosh EFI
+# Large binary files stored with Git LFS
+
+# OpenCore drivers (.efi)
+*.efi filter=lfs diff=lfs merge=lfs -text
+
+# Kexts (.kext are bundles but contain binaries)
+*.kext filter=lfs diff=lfs merge=lfs -text
+
+# ACPI tables (.aml)
+*.aml filter=lfs diff=lfs merge=lfs -text
