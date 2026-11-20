@@ -1,0 +1,22 @@
+# macOS resource fork files (created on non-HFS+ filesystems)
+._*
+
+# Git
+.git
+.gitattributes
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+Thumbs.db
+
+# Files that might appear in the root of a volume
+VolumeName
+
+# Directories potentially created on remote AFP/SMB volumes
+.metadata_never_index_use_this_IN_LIEU_OF
+.trashes
+ehthumbs.db

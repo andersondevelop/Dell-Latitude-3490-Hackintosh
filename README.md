@@ -18,7 +18,7 @@ Working OpenCore EFI for the **Dell Latitude 3490** running **macOS Tahoe**. Nea
 | Wi-Fi/BT | Broadcom BCM4352 802.11ac Dual Band — using **IO80211FamilyLegacy** + **AirportBrcmFixup** (native macOS driver) |
 | RAM | 32 GB |
 | Ethernet | Realtek RTL8111 Gigabit (RealtekRTL8111.kext + IntelMausi disabled) |
-| Touchpad | Synaptics I2C (VoodooPS2Trackpad) — ❌ Not working |
+| Touchpad | Synaptics I2C (VoodooPS2Trackpad) |
 | SMBIOS | MacBookPro15,2 |
 
 ## What works / what doesn't
@@ -33,7 +33,7 @@ Working OpenCore EFI for the **Dell Latitude 3490** running **macOS Tahoe**. Nea
 | **Bluetooth** | ✅ | BrcmPatchRAM3 + BlueToolFixup |
 | Battery / sleep / lid | ✅ | SMCBatteryManager |
 | Keyboard + backlight | ✅ | VoodooPS2 |
-| Touchpad gestures | ❌ | VoodooPS2Trackpad (not working) |
+| Touchpad gestures | ✅ | VoodooPS2Trackpad |
 | CPU temp / fan sensors | ✅ | SMCDellSensors + SMCProcessor + SMCSuperIO |
 | Ethernet | ✅ | RealtekRTL8111 |
 | NVMe SSD | ✅ | SATA-unsupported.kext + NVMeFix |
